@@ -1,0 +1,8 @@
+site_name: Qingcai Jiang's homepage
+theme:
+  name: material
+nav:
+    - Home: index.md
+    # - About: about.md
+markdown_extensions:
+  - attr_list
