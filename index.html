@@ -222,6 +222,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#research-experiences" class="md-nav__link">
+    Research Experiences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#industry-positions" class="md-nav__link">
+    Industry Positions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#selected-publications" class="md-nav__link">
     Selected Publications
   </a>
@@ -229,8 +243,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#competition-and-award" class="md-nav__link">
-    Competition and Award
+  <a href="#teaching-experiences" class="md-nav__link">
+    Teaching Experiences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competitions-and-awards" class="md-nav__link">
+    Competitions and Awards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skills-and-hobbies" class="md-nav__link">
+    Skills and Hobbies
   </a>
   
 </li>
@@ -277,6 +305,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#research-experiences" class="md-nav__link">
+    Research Experiences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#industry-positions" class="md-nav__link">
+    Industry Positions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#selected-publications" class="md-nav__link">
     Selected Publications
   </a>
@@ -284,8 +326,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#competition-and-award" class="md-nav__link">
-    Competition and Award
+  <a href="#teaching-experiences" class="md-nav__link">
+    Teaching Experiences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competitions-and-awards" class="md-nav__link">
+    Competitions and Awards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skills-and-hobbies" class="md-nav__link">
+    Skills and Hobbies
   </a>
   
 </li>
@@ -308,39 +364,83 @@
 <h1 id="qingcai-jiang">Qingcai Jiang (姜庆彩)</h1>
 <p><img src="picture\jqc.jpg" alt="jqc" style="zoom:25%;" /></p>
 <p><a href="https://scholar.google.com/citations?user=OaiS4pMAAAAJ" target="blank"><img align="center" src="picture\googlescholar.svg" alt="" height="30" width="40"  /></a> <a href="https://github.com/qcjiang" target="blank"><img align="center" src="picture\github.svg" alt="" height="30" width="40"  /></a></p>
-<p><strong>Email:</strong> jqc@mail.ustc.edu.cn</p>
-<p><strong>Research Interest:</strong> Computer Achitecture, Parallel Computing</p>
+<p><strong>Email:</strong> jqc@mail.ustc.edu.cn, jqc9707@gmail.com</p>
+<p><strong>Research Interest:</strong> Computer Achitecture (near data processing related topics), Parallel Computing (quantum chemistry related large scale parallel implementaions on heterogeneous platforms) and System Modeling (enabling static code analyzer to model throughput of basic blocks on AArch64 machines)</p>
 <h2 id="education">Education</h2>
 <ul>
-<li>2019 -- now University of Science and Technology of China. Ph.D. Student in Computer Science, major in Computer Architecture. Advisor: <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a></li>
-<li>2015 -- 2019 University of Science and Technology of China. B.S. in Computer Science.</li>
+<li>Ph.D. Student in Computer Science, major in Computer Architecture. University of Science and Technology of China.  Advisor: <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>. September 2019 ~ Present.</li>
+<li>B.S. in Computer Science. University of Science and Technology of China. September 2015 ~ June 2019.</li>
 </ul>
+<h2 id="research-experiences">Research Experiences</h2>
+<p><strong>Accelerating Linear-Response Time-Dependent Density Functional Theory (LR-TDDFT) calculations with multi-GPU platform. January 2019 ~ August 2019.</strong></p>
+<ul>
+<li>Using CUDA, shared memory, mix precesions et al. techniques to port LR-TDDFT calculations to 8 x V100 GPU server.</li>
+<li>Design a pipeling strategy to deal with large scale GEMM and MPI_Reduce operator for overlapping computation and communication.</li>
+<li>Output: [1] in Selected Publications.</li>
+</ul>
+<p><strong>Accelerating LR-TDDFT calculations with low-rank approximation and iterative eigensolver. November 2019 ~ August 2020.</strong></p>
+<ul>
+<li>Using K-Means based interpolative separable density fitting (ISDF) method to approximate the two-electron integrals in LR-TDDFT calculations and implementing implicit locally optimal block preconditioned conjugate gradient (LOBPCG) to iteratively solve the lowest N eigenvalues.</li>
+<li>Pushing the scale of LR-TDDFT to 12,288 cores on NERSC's Cori supercomputer and for the first time reaching LR-TDDFT calculations of 4,096 silicon
+  atoms.</li>
+<li>Output: [2] in Selected Publications and [3] in Competitions and Awards.</li>
+</ul>
+<p><strong>Accelerating discontinuous Galerkin density functional theory (DGDFT) method on Sunway and New Sunway supercomputers. August 2019 ~ April 2022.</strong></p>
+<ul>
+<li>Output: [4] and [5] in Selected Publications and awarded as a <strong>2022 ACM Gordon Bell Finalist</strong>.</li>
+</ul>
+<p><strong>Study on Workload modeling method of Kunpeng Processor (joint research project with Huawei Technologies Co. Ltd, China). September 2021 ~ August 2022.</strong></p>
+<ul>
+<li>Collecting the information for describing an instruction in the framework of basic block throughput predictor, including throughput, latency, port pressure, operands and micro-ops (uops), in a given Kunpeng 920 processor.</li>
+<li>Building an extensive benchmark from real-world applications and conventional evaluation tools, together with a runtime environment system to run a basic block and get the accurate corresponding throughput.</li>
+<li>
+<p>figuring out several issues that cause performance degradation in llvm-mca than fix them, resulting that our accuracy exceed current tools in AARch64 architecture by a wide margin.</p>
+</li>
+<li>
+<p>Output: [3] in Selected Publications.</p>
+</li>
+</ul>
+<h2 id="industry-positions">Industry Positions</h2>
+<p>Software Engineer Intern at Huawei Technologies Co. Ltd, China. October 2018 ~ March 2019.</p>
 <h2 id="selected-publications">Selected Publications</h2>
 <ol>
 <li>
-<p><u>Qingcai Jiang</u>, Lingyun Wan, Shizhe Jiao, et al. "An Efficient Multi-GPU Implementation for Linear-Response Time-Dependent Density Functional Theory". 2020 IEEE 22nd International Conference on High Performance Computing and Communications (<strong>HPCC'2020</strong>). IEEE, 2020: 197-205. <a href="pdf/lrtddft_gpu_hpcc2020.pdf" target="blank">pdf</a></p>
+<p><u>Qingcai Jiang</u>, Lingyun Wan, Shizhe Jiao, et al. <font color="Purple">An Efficient Multi-GPU Implementation for Linear-Response Time-Dependent Density Functional Theory</font>, in 2020 IEEE 22nd International Conference on High Performance Computing and Communications (<strong>HPCC'2020</strong>). IEEE, 2020: 197-205. <a href="pdf/lrtddft_gpu_hpcc2020.pdf" target="blank">[pdf]</a></p>
 </li>
 <li>
-<p><u>Qingcai Jiang</u>, Junshi Chen, Lingyun Wan, et al. "Accelerating Parallel First-Principles Excited-State Calculation by Low-Rank Approximation with K-Means Clustering". 51st International Conference on Parallel Processing (<strong>ICPP'2022</strong>). <a href="pdf/lrtddft_isdf_icpp2022.pdf" target="blank">pdf</a> <a href="https://www.youtube.com/watch?v=fjSMj3iBNpU&list=PLv0Xcy0uv4R9EnuG01ZC8Ega5oydARAmT&index=3&ab_channel=ICPP2022" target="blank">video</a></p>
+<p><u>Qingcai Jiang</u>, Junshi Chen, Lingyun Wan, et al.  <font color="Purple">Accelerating Parallel First-Principles Excited-State Calculation by Low-Rank Approximation with K-Means Clustering</font>, in 51st International Conference on Parallel Processing (<strong>ICPP'2022</strong>). <a href="pdf/lrtddft_isdf_icpp2022.pdf" target="blank">[pdf]</a> <a href="https://www.youtube.com/watch?v=fjSMj3iBNpU&list=PLv0Xcy0uv4R9EnuG01ZC8Ega5oydARAmT&index=3&ab_channel=ICPP2022" target="blank">[video]</a></p>
 </li>
 <li>
-<p><u>Qingcai Jiang</u>, Shaojie Tan, Zhenwei Cao, et al. "Quantifying Throughput of Basic Blocks on ARM Microarchitectures by Static Code Analyzers: A Case Study on Kunpeng 920". 2022 IEEE 24th Int Conf on High Performance Computing &amp; Communications (<strong>HPCC'2022</strong>).</p>
+<p><u>Qingcai Jiang</u>, Shaojie Tan, Zhenwei Cao, et al. <font color="Purple">Quantifying Throughput of Basic Blocks on ARM Microarchitectures by Static Code Analyzers: A Case Study on Kunpeng 920</font>, in 2022 IEEE 24th Int Conf on High Performance Computing &amp; Communications (<strong>HPCC'2022</strong>).<a href="pdf/static_code_analyzer_hpcc2022.pdf" target="blank">[pdf]</a></p>
 </li>
 <li>
-<p>Wei Hu*, Hong An, Zhuoqiang Guo*, <u>Qingcai Jiang</u>*, et al. "2.5 Million-Atom Ab Initio Electronic-Structure Simulation of Complex Metallic Heterostructures with DGDFT". Proceedings of the 2022 International Conference for High Performance Computing, Networking, Storage and Analysis (<strong>SC'2022</strong>). Selected as a <strong>2022 ACM Gordon Bell Finalist</strong>. <a href="https://sc22.supercomputing.org/presentation/?id=gb105&sess=sess191" target="blank">link</a> <a href="pdf/dgdft_sc2022.pdf" target="blank">pdf</a></p>
+<p>Wei Hu*, Hong An, Zhuoqiang Guo*, <u>Qingcai Jiang</u>*, et al. <font color="Purple">2.5 Million-Atom Ab Initio Electronic-Structure Simulation of Complex Metallic Heterostructures with DGDFT</font>, in Proceedings of the 2022 International Conference for High Performance Computing, Networking, Storage and Analysis (<strong>SC'2022</strong>). Awarded as a <strong>2022 ACM Gordon Bell Finalist</strong>. <a href="https://sc22.supercomputing.org/presentation/?id=gb105&sess=sess191" target="blank">[link]</a> <a href="pdf/dgdft_sc2022.pdf" target="blank">[pdf]</a></p>
 </li>
 <li>
-<p>Wei Hu, Xinming Qin, <u>Qingcai Jiang</u>, et al. "High performance computing of DGDFT for tens of thousands of atoms using millions of cores on Sunway TaihuLight". <strong>Science Bulletin</strong>, 2021, 66(2): 111-119. <a href="pdf/dgdft_sunway_scibull2020.pdf" target="blank">pdf</a></p>
+<p>Wei Hu, Xinming Qin, <u>Qingcai Jiang</u>, et al. <font color="Purple">High performance computing of DGDFT for tens of thousands of atoms using millions of cores on Sunway TaihuLight</font>, in <strong>Science Bulletin</strong>, 2021, 66(2): 111-119. <a href="pdf/dgdft_sunway_scibull2020.pdf" target="blank">[pdf]</a></p>
 </li>
 </ol>
 <p>* : co-first author</p>
-<h2 id="competition-and-award">Competition and Award</h2>
+<h2 id="teaching-experiences">Teaching Experiences</h2>
+<p>University of Science and Technology of China</p>
+<ul>
+<li>Teaching Assistant of Introduction to Computing Systems A (CS1002A). Fall 2021.</li>
+<li>Teaching Assistant of Computer Programs Design II (011175). Spring 2020.</li>
+<li>Teaching Assistant of Introduction to Computing Systems H (011704). Fall 2019.</li>
+<li>Teaching Assistant of Fundamentals of Artificial Intelligence (011119). Spring 2019.</li>
+</ul>
+<h2 id="competitions-and-awards">Competitions and Awards</h2>
 <ol>
-<li>First place in “2019 The 7th Student RDMA Programming Competition” <a href="http://news.ustc.edu.cn/info/1055/49558.htm" target="blank">news</a>  </li>
-<li>First place in “2020 The 8th APAC RDMA Programming Competition” <a href="http://news.ustc.edu.cn/info/1047/73404.htm" target="blank">news</a>  </li>
-<li>First place in "The 8th 'Intel Cup' Parallel Application Challenge-PAC" <a href="http://news.ustc.edu.cn/info/1055/73007.htm" target="blank">news</a> </li>
-<li>2020 ASML Computational Lithography Scholarship Award </li>
+<li>First place in “2019 The 7th Student RDMA Programming Competition”. <a href="http://news.ustc.edu.cn/info/1055/49558.htm" target="blank">[news]</a>  </li>
+<li>First place in “2020 The 8th APAC RDMA Programming Competition”. <a href="http://news.ustc.edu.cn/info/1047/73404.htm" target="blank">[news in Chinese]</a> <a href="http://en.ustc.edu.cn/info/1007/3145.htm" target="blank">[news in English]</a> </li>
+<li>First place in "The 8th 'Intel Cup' Parallel Application Challenge-PAC". <a href="http://news.ustc.edu.cn/info/1055/73007.htm" target="blank">[news in Chinese]</a> <a href="http://en.ustc.edu.cn/info/1007/3073.htm" target="blank">[news in English]</a> </li>
+<li>2020 ASML Computational Lithography Scholarship Award. </li>
 </ol>
+<h2 id="skills-and-hobbies">Skills and Hobbies</h2>
+<ul>
+<li>Programming: C/C++ (Programming), Python (Data Processing and Ploting), LaTeX (Drawing complex pictures with Tikz <a href="pdf/dgdft_main_demo.pdf" target="blank">[demo]</a>).</li>
+<li>Tools: Vim, Linux, Office.</li>
+</ul>
 
 
 
