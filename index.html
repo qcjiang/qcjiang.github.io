@@ -378,9 +378,9 @@
 
 <h1 id="qingcai-jiang">Qingcai Jiang (姜庆彩)</h1>
 <p><img src="picture\jqc.jpg" alt="jqc" style="zoom:25%;" /></p>
-<p><a href="https://scholar.google.com/citations?user=OaiS4pMAAAAJ" target="blank"><img align="center" src="picture\googlescholar.svg" alt="" height="30" width="40"  /></a> <a href="https://github.com/qcjiang" target="blank"><img align="center" src="picture\github.svg" alt="" height="30" width="40"  /></a></p>
-<p><strong>Email:</strong> jqc@mail.ustc.edu.cn, jqc9707@gmail.com</p>
-<p><strong>Research Interest:</strong> Computer Achitecture (near data processing related topics), Parallel Computing (quantum chemistry related large scale parallel implementaions on heterogeneous platforms) and System Modeling (enabling static code analyzer to model throughput of basic blocks on AArch64 machines)</p>
+<p><a href="https://scholar.google.com/citations?user=OaiS4pMAAAAJ" target="blank"><img align="center" src="picture\googlescholar.svg" alt="" height="30" width="40"  /></a> <a href="https://github.com/qcjiang" target="blank"><img align="center" src="picture\github.svg" alt="" height="30" width="40"  /></a><a href="https://www.linkedin.com/in/%E5%BA%86%E5%BD%A9-%E5%A7%9C-77a9b0172/" target="blank"><img align="center" src="picture\linkedin.svg" alt="" height="30" width="40"  /></a></p>
+<p><strong>Email:</strong> jqc_AT_mail.ustc.edu.cn, jqc9707_AT_gmail.com</p>
+<p><strong>Research Interest:</strong> Computer Achitecture (HW/SW support for near data processing), Parallel Computing (quantum chemistry related large scale parallel implementaions on heterogeneous platforms) and System Modeling (enabling static code analyzer to model throughput of basic blocks on AArch64 machine)</p>
 <h2 id="education">Education</h2>
 <ul>
 <li>Ph.D. Student in Computer Science, major in Computer Architecture. University of Science and Technology of China.  Advisor: <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>. September 2019 ~ Present.</li>
@@ -389,28 +389,28 @@
 <h2 id="research-experiences">Research Experiences</h2>
 <p><strong>Accelerating Linear-Response Time-Dependent Density Functional Theory (LR-TDDFT) calculations with multi-GPU platform. January 2019 ~ August 2019.</strong></p>
 <ul>
-<li>Using CUDA, shared memory, mix precesions et al. techniques to port LR-TDDFT calculations to 8 x V100 GPU server.</li>
+<li>Port LR-TDDFT calculations to 8 x V100 GPU server, and design shared memory, mix precesions et al. techniques to improve parallel effiency.</li>
 <li>Design a pipeling strategy to deal with large scale GEMM and MPI_Reduce operator for overlapping computation and communication.</li>
 <li>Output: [1] in Selected Publications.</li>
 </ul>
 <p><strong>Accelerating LR-TDDFT calculations with low-rank approximation and iterative eigensolver. November 2019 ~ August 2020.</strong></p>
 <ul>
-<li>Using K-Means based interpolative separable density fitting (ISDF) method to approximate the two-electron integrals in LR-TDDFT calculations and implementing implicit locally optimal block preconditioned conjugate gradient (LOBPCG) to iteratively solve the lowest N eigenvalues.</li>
-<li>Pushing the scale of LR-TDDFT to 12,288 cores on NERSC's Cori supercomputer and for the first time reaching LR-TDDFT calculations of 4,096 silicon atoms.</li>
+<li>Build K-Means based interpolative separable density fitting (ISDF) method to approximate the two-electron integrals in LR-TDDFT calculations and implementing implicit locally optimal block preconditioned conjugate gradient (LOBPCG) to iteratively solve the lowest N eigenvalues.</li>
+<li>Push the limit of LR-TDDFT to 12,288 cores on NERSC's Cori supercomputer and for the first time reaching LR-TDDFT calculations of 4,096 silicon atoms.</li>
 <li>Output: [2] in Selected Publications and [3] in Competitions and Awards.</li>
 </ul>
 <p><strong>Accelerating discontinuous Galerkin density functional theory (DGDFT) method on Sunway and New Sunway supercomputers. August 2019 ~ April 2022.</strong></p>
 <ul>
-<li>Optimize DGDFT's kernels through data structure adaption and so on, according to Sunway processor's architecture.</li>
-<li>Employ a key-value format and read-in-and-broadcast mechanism for improving the I/O performance of DGDFT. </li>
+<li>Optimize DGDFT's kernels according to Sunway processor's architecture, including data structure adaption and to re-program the codes given the limited local data memory of this processor.</li>
+<li>Employ a key-value format and read-inand-broadcast mechanism for improving the I/O performance of DGDFT. </li>
 <li>Output: [4] and [5] in Selected Publications and awarded as a <strong>2022 ACM Gordon Bell Finalist</strong>.</li>
 </ul>
 <p><strong>Study on workload modeling method of Kunpeng processor (joint research project with Huawei Technologies Co. Ltd, China). September 2021 ~ August 2022.</strong></p>
 <ul>
-<li>Collecting the information for describing an instruction in the framework of basic block throughput predictor, including throughput, latency, port pressure, operands and micro-ops (uops), in a given Kunpeng 920 processor.</li>
-<li>Building an extensive benchmark from real-world applications and conventional evaluation tools, together with a runtime environment system to run a basic block and get the accurate corresponding throughput.</li>
+<li>Establish a workflow to colloct the information for describing an instruction in the framework of basic block throughput predictor, including throughput, latency, port pressure, operands and micro-ops (uops), in a given Kunpeng 920 processor.</li>
+<li>Build an extensive benchmark from real-world applications and conventional evaluation tools, together with a runtime environment system to run a basic block and get the accurate corresponding throughput.</li>
 <li>
-<p>Figuring out several issues that cause performance degradation in llvm-mca than fix them, resulting that our accuracy exceed current tools in AArch64 architecture by a wide margin.</p>
+<p>Improve llvm-mca's accuracy through improving the pipeline simulation algorithm, calibrating with Kunpeng 920’s hardware etc., resulting that the accuracy exceed current tools in AARch64 architecture by a wide margin.</p>
 </li>
 <li>
 <p>Output: [3] in Selected Publications.</p>
