@@ -392,8 +392,8 @@
 
 <h1 id="qingcai-jiang">Qingcai Jiang (姜庆彩)</h1>
 <p><img src="picture\jqc.jpg" alt="jqc" style="zoom:5%;" /></p>
-<p><a href="https://scholar.google.com/citations?user=OaiS4pMAAAAJ" target="blank"><img align="center" src="picture\googlescholar.svg" alt="" height="30" width="40"  /></a> <a href="https://github.com/qcjiang" target="blank"><img align="center" src="picture\github.svg" alt="" height="30" width="40"  /></a><a href="https://www.linkedin.com/in/%E5%BA%86%E5%BD%A9-%E5%A7%9C-77a9b0172/" target="blank"><img align="center" src="picture\linkedin.svg" alt="" height="30" width="40"  /></a></p>
-<p><strong>Last Modified: 19/10/2023</strong></p>
+<p><a href="https://scholar.google.com/citations?user=OaiS4pMAAAAJ" target="blank"><img align="center" src="picture\googlescholar.svg" alt="" height="30" width="40"  /></a><a href="https://github.com/qcjiang" target="blank"><img align="center" src="picture\github.svg" alt="" height="30" width="40"  /></a><a href="https://www.linkedin.com/in/%E5%BA%86%E5%BD%A9-%E5%A7%9C-77a9b0172/" target="blank"><img align="center" src="picture\linkedin.svg" alt="" height="30" width="40"  /></a><a href="https://dblp.org/pid/262/1511.html" target="blank"><img align="center" src="picture\dblp.svg" alt="" height="30" width="40"  /> </a></p>
+<p><strong>Last Modified: 2023.11</strong></p>
 <p><strong>Email:</strong> jqc_AT_mail.ustc.edu.cn, jqc9707_AT_gmail.com</p>
 <h2 id="about">About</h2>
 <p>Hello! I am Qingcai Jiang, a PhD student from University of Science and Technology of China. I major in computer architechture under the supervision of  Prof. <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>. I have broad interest on computer architecture, parallel computing and workload characterization. Currently I am visiting ETH Zurich with Prof. <a href="https://people.inf.ethz.ch/omutlu/" target="blank">Onur Mutlu</a>'s research group.</p>
@@ -403,30 +403,30 @@
 <li>B.S. in Computer Science. University of Science and Technology of China. Advisor: <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>. September 2015 - June 2019.</li>
 </ul>
 <h2 id="research-experiences">Research Experiences</h2>
-<p><strong>Accelerating Linear-Response Time-Dependent Density Functional Theory (LR-TDDFT) calculations with multi-GPU platform. January 2019 ~ August 2019.</strong></p>
+<p><strong>Accelerate Linear-Response Time-Dependent Density Functional Theory (LR-TDDFT) calculations using a multi-GPU platform. January 2019 ~ August 2019.</strong></p>
 <ul>
-<li>Port LR-TDDFT calculations to 8 x V100 GPU server, and design shared memory, mix precesions etc. techniques to improve parallel effiency.</li>
-<li>Design a pipeling strategy to deal with large scale GEMM and MPI_Reduce operator for overlapping computation and communication.</li>
+<li>Port LR-TDDFT calculations to an 8x V100 GPU server and design shared memory and mixed-precision techniques, among others, to improve parallel efficiency.</li>
+<li>Design a pipelining strategy to handle large-scale GEMM and MPI_Reduce operations for overlapping computation and communication.</li>
 <li>Output: [1] in Selected Publications.</li>
 </ul>
-<p><strong>Accelerating LR-TDDFT calculations with low-rank approximation and iterative eigensolver. November 2019 ~ August 2020.</strong></p>
+<p><strong>Accelerate LR-TDDFT calculations by utilizing low-rank approximation and an iterative eigensolver. November 2019 ~ August 2020.</strong></p>
 <ul>
-<li>Build K-Means based interpolative separable density fitting (ISDF) method to approximate the two-electron integrals in LR-TDDFT calculations and implementing implicit locally optimal block preconditioned conjugate gradient (LOBPCG) to iteratively solve the lowest N eigenvalues.</li>
-<li>Push the limit of LR-TDDFT to 12,288 cores on NERSC's Cori supercomputer and for the first time reaching LR-TDDFT calculations of 4,096 silicon atoms.</li>
+<li>Develop a K-Means based Interpolative Separable Density Fitting (ISDF) method to approximate two-electron integrals in LR-TDDFT calculations, and implement an implicit Locally Optimal Block Preconditioned Conjugate Gradient (LOBPCG) method to iteratively solve for the lowest N eigenvalues.</li>
+<li>Push the limit of LR-TDDFT to 12,288 cores on NERSC's Cori supercomputer, achieving, for the first time, LR-TDDFT calculations for 4,096 silicon atoms.</li>
 <li>Output: [2] in Selected Publications and [3] in Competitions and Awards.</li>
 </ul>
-<p><strong>Accelerating discontinuous Galerkin density functional theory (DGDFT) method on Sunway and New Sunway supercomputers. August 2019 ~ April 2022.</strong></p>
+<p><strong>Accelerate the discontinuous Galerkin density functional theory (DGDFT) method on the Sunway and New Sunway supercomputers. August 2019 ~ April 2022.</strong></p>
 <ul>
-<li>Optimize DGDFT's kernels according to Sunway processor's architecture, including data structure adaption and to re-program the codes given the limited local data memory of this processor.</li>
-<li>Employ a key-value format and read-inand-broadcast mechanism for improving the I/O performance of DGDFT. </li>
-<li>Output: [4] and [5] in Selected Publications and awarded as a <strong>2022 ACM Gordon Bell Finalist</strong>.</li>
+<li>Optimize DGDFT's computational kernels to align with the Sunway processor's architecture, which includes adapting data structures and reprogramming the codes to accommodate the processor's limited local data memory.</li>
+<li>Implement a key-value format and a read-and-broadcast mechanism to improve the I/O performance of the DGDFT method.</li>
+<li>Output: [5] and [7] in Selected Publications and <strong>2022 ACM Gordon Bell Finalist</strong>.</li>
 </ul>
-<p><strong>Study on workload modeling method of Kunpeng processor (joint research project with Huawei Technologies Co. Ltd, China). September 2021 ~ August 2022.</strong></p>
+<p><strong>Study on workload characterization for Kunpeng processor, as a joint research project with Huawei Technologies Co. Ltd, China. September 2021 ~ August 2022.</strong></p>
 <ul>
-<li>Establish a workflow to colloct the information for describing an instruction in the framework of basic block throughput predictor, including throughput, latency, port pressure, operands and micro-ops (uops), in a given Kunpeng 920 processor.</li>
-<li>Build an extensive benchmark from real-world applications and conventional evaluation tools, together with a runtime environment system to run a basic block and get the accurate corresponding throughput.</li>
+<li>Establish a workflow to collect information required to describe an instruction within the framework of a basic block throughput predictor. This includes throughput, latency, port pressure, operands, and micro-operations (uops) for the Kunpeng 920 processor.</li>
+<li>Construct an extensive benchmark composed of real-world applications and standard evaluation tools, along with a runtime environment system designed to execute a basic block and accurately measure the corresponding throughput.</li>
 <li>
-<p>Improve llvm-mca's accuracy through improving the pipeline simulation algorithm, calibrating with Kunpeng 920’s hardware etc., resulting that the accuracy exceed current tools in AARch64 architecture by a wide margin.</p>
+<p>Enhance the accuracy of llvm-mca by refining the pipeline simulation algorithm and calibrating it with the Kunpeng 920's hardware, which results in accuracy that significantly exceeds that of current tools on the AArch64 architecture.</p>
 </li>
 <li>
 <p>Output: [3] and [6] in Selected Publications.</p>
@@ -438,22 +438,25 @@
 <h2 id="selected-publications">Selected Publications</h2>
 <ol>
 <li>
-<p><strong>Qingcai Jiang</strong>, Lingyun Wan, Shizhe Jiao, et al. <font color="Purple">An Efficient Multi-GPU Implementation for Linear-Response Time-Dependent Density Functional Theory</font>, in 2020 IEEE 22nd International Conference on High Performance Computing and Communications (HPCC'2020). IEEE, 2020: 197-205. <a href="pdf/lrtddft_gpu_hpcc2020.pdf" target="blank">[pdf]</a></p>
+<p><strong>[HPCC'2020]</strong> <strong>Qingcai Jiang</strong>, Lingyun Wan, Shizhe Jiao, et al. <font color="Purple">An Efficient Multi-GPU Implementation for Linear-Response Time-Dependent Density Functional Theory</font>, in 2020 IEEE 22nd International Conference on High Performance Computing and Communications (HPCC'2020). IEEE, 2020: 197-205. <a href="pdf/lrtddft_gpu_hpcc2020.pdf" target="blank">[pdf]</a></p>
 </li>
 <li>
-<p><strong>Qingcai Jiang</strong>, Junshi Chen, Lingyun Wan, et al.  <font color="Purple">Accelerating Parallel First-Principles Excited-State Calculation by Low-Rank Approximation with K-Means Clustering</font>, in 51st International Conference on Parallel Processing (ICPP'2022). <a href="pdf/lrtddft_isdf_icpp2022.pdf" target="blank">[pdf]</a> <a href="https://www.youtube.com/watch?v=fjSMj3iBNpU&list=PLv0Xcy0uv4R9EnuG01ZC8Ega5oydARAmT&index=3&ab_channel=ICPP2022" target="blank">[video]</a></p>
+<p><strong>[ICPP'2022]</strong> <strong>Qingcai Jiang</strong>, Junshi Chen, Lingyun Wan, et al.  <font color="Purple">Accelerating Parallel First-Principles Excited-State Calculation by Low-Rank Approximation with K-Means Clustering</font>, in 51st International Conference on Parallel Processing (ICPP'2022). <a href="pdf/lrtddft_isdf_icpp2022.pdf" target="blank">[pdf]</a> <a href="https://www.youtube.com/watch?v=fjSMj3iBNpU&list=PLv0Xcy0uv4R9EnuG01ZC8Ega5oydARAmT&index=3&ab_channel=ICPP2022" target="blank">[video]</a></p>
 </li>
 <li>
-<p><strong>Qingcai Jiang</strong>, Shaojie Tan, Zhenwei Cao, et al. <font color="Purple">Quantifying Throughput of Basic Blocks on ARM Microarchitectures by Static Code Analyzers: A Case Study on Kunpeng 920</font>, in 2022 IEEE 24th Int Conf on High Performance Computing &amp; Communications (HPCC'2022). <a href="pdf/static_code_analyzer_hpcc2022.pdf" target="blank">[pdf]</a></p>
+<p><strong>[HPCC'2022]</strong> <strong>Qingcai Jiang</strong>, Shaojie Tan, Zhenwei Cao, et al. <font color="Purple">Quantifying Throughput of Basic Blocks on ARM Microarchitectures by Static Code Analyzers: A Case Study on Kunpeng 920</font>, in 2022 IEEE 24th Int Conf on High Performance Computing &amp; Communications (HPCC'2022). <a href="pdf/static_code_analyzer_hpcc2022.pdf" target="blank">[pdf]</a></p>
 </li>
 <li>
-<p>Wei Hu*, Hong An, Zhuoqiang Guo*, <strong>Qingcai Jiang</strong>*, et al. <font color="Purple">2.5 Million-Atom Ab Initio Electronic-Structure Simulation of Complex Metallic Heterostructures with DGDFT</font>, in Proceedings of the 2022 International Conference for High Performance Computing, Networking, Storage and Analysis (SC'2022). Awarded as a 2022 ACM Gordon Bell Finalist. <a href="https://sc22.supercomputing.org/presentation/?id=gb105&sess=sess191" target="blank">[link]</a> <a href="pdf/dgdft_sc2022.pdf" target="blank">[pdf]</a> <a href="http://news.ustc.edu.cn/info/1055/81128.htm" target="blank">[news in Chinese]</a> </p>
+<p><strong>[DATE'2024]</strong> <strong>Qingcai Jiang</strong>*, Shaojie Tan*, Junshi Chen and Hong An. <font color="Purple">A<sup>3</sup>PIM: An Automated, Analytic and Accurate Processing-in-Memory Offloader</font>,  to appear in 27th Design, Automation and Test in Europe Conference (DATE'2024).</p>
 </li>
 <li>
-<p>Wei Hu, Xinming Qin, <strong>Qingcai Jiang</strong>, et al. <font color="Purple">High performance computing of DGDFT for tens of thousands of atoms using millions of cores on Sunway TaihuLight</font>, in Science Bulletin, 2021, 66(2): 111-119. <a href="pdf/dgdft_sunway_scibull2020.pdf" target="blank">[pdf] </a><a href="http://news.ustc.edu.cn/info/1048/72462.htm" target="blank">[news in Chinese]</a> </p>
+<p><strong>[SC'2022]</strong> Wei Hu*, Hong An, Zhuoqiang Guo*, <strong>Qingcai Jiang</strong>*, et al. <font color="Purple">2.5 Million-Atom Ab Initio Electronic-Structure Simulation of Complex Metallic Heterostructures with DGDFT</font>, in Proceedings of the 2022 International Conference for High Performance Computing, Networking, Storage and Analysis (SC'2022). Awarded as a 2022 ACM Gordon Bell Finalist. <a href="https://sc22.supercomputing.org/presentation/?id=gb105&sess=sess191" target="blank">[link]</a> <a href="pdf/dgdft_sc2022.pdf" target="blank">[pdf]</a> <a href="http://news.ustc.edu.cn/info/1055/81128.htm" target="blank">[news in Chinese]</a> </p>
 </li>
 <li>
-<p>Shaojie Tan*, <strong>Qingcai Jiang</strong>*, Zhenwei Cao,  et al. <font color="Purple">Uncovering the performance bottleneck of modern HPC processor with static code analyzer: a case study on Kunpeng 920</font>, in CCF Trans. HPC, 2023: 1-22. <a href="pdf/static_code_analyzer_thpc2023.pdf" target="blank">[pdf] </a></p>
+<p><strong>[THPC]</strong> Shaojie Tan*, <strong>Qingcai Jiang</strong>*, Zhenwei Cao,  et al. <font color="Purple">Uncovering the performance bottleneck of modern HPC processor with static code analyzer: a case study on Kunpeng 920</font>, in CCF Trans. HPC, 2023: 1-22. <a href="pdf/static_code_analyzer_thpc2023.pdf" target="blank">[pdf] </a></p>
+</li>
+<li>
+<p><strong>[Science Bulletin]</strong> Wei Hu, Xinming Qin, <strong>Qingcai Jiang</strong>, et al. <font color="Purple">High performance computing of DGDFT for tens of thousands of atoms using millions of cores on Sunway TaihuLight</font>, in Science Bulletin, 2021, 66(2): 111-119. <a href="pdf/dgdft_sunway_scibull2020.pdf" target="blank">[pdf] </a><a href="http://news.ustc.edu.cn/info/1048/72462.htm" target="blank">[news in Chinese]</a> </p>
 </li>
 </ol>
 <p>* : co-first author</p>
