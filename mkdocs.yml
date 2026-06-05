@@ -1,7 +1,18 @@
 site_name: Qingcai Jiang's homepage
+site_author: Qingcai Jiang
 theme:
   name: material
+  # text: 'Ubuntu'      
+  # code: 'Fira Code'   
+  # text: 'Pacifico'       
+  # code: 'Courier New' 
+  font:
+    text: Roboto
+    code: Roboto Mono
 nav:
     - Home: index.md
-markdown_extensions:
-  - attr_list
+    - 中文主页: index_ch.md
+extra_css:
+  - styles/extra.css
+# markdown_extensions:
+#   - attr_list
