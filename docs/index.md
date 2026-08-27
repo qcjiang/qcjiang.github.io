@@ -6,15 +6,13 @@
 **Email:** jqc_AT_mail.ustc.edu.cn, jqc9707_AT_gmail.com
 
 ## About
-Hello! I am a researcher in Huawei's OpenHarmony performance team.
+Hello! I am currently with the Infra Lab in Huawei's Computing Product Line, where I focus on LLM inference optimization.
 
-A single theme runs through all of my work: **performance**. I obtained my Ph.D. and B.S. degrees from the University of Science and Technology of China (USTC) in June 2025 and June 2019 respectively, under the supervision of Prof. <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>. Over the years I have pursued performance from three angles — first scaling up **HPC and large-scale scientific computing**, then rethinking performance at the **computer architecture** level, and now optimizing the performance of **mobile operating systems**.
+**I'm hiring! Students are especially welcome.** I am looking for interns and full-time researchers interested in LLM inference optimization. Please feel free to reach out via email.
 
-## Research Overview
+I received my Ph.D. and B.S. degrees from the University of Science and Technology of China (USTC) in June 2025 and June 2019, respectively. During my Ph.D., I was advised by Prof. <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>.
 
-I was previously working on computer architecture, near-data processing, and virtual memory with Prof. <a href="https://people.inf.ethz.ch/omutlu/" target="blank">Onur Mutlu</a>'s research group.
-I had the opportunity to work closely with Prof. <a href="https://scholar.google.com/citations?user=t8Ncyb4AAAAJ&hl=en" target="blank">Wei Hu</a> on accelerating large-scale quantum chemistry calculations in heterogeneous systems like GPUs and the Sunway supercomputer during my bachelor's and the first several years of my PhD. 
-I also had the chance to collaborate with <a href="https://www.linkedin.com/in/wang-jiong-01a78b23" target="blank">Jiong Wang</a> on workload characterization on Huawei's Kunpeng 920 CPU.
+A single theme runs through all of my work: **PERFORMANCE**. My experience spans scaling up **HPC and large-scale scientific computing**, exploring performance at the **computer architecture** level, optimizing **operating-system performance** in Huawei's OpenHarmony performance team, and now improving the efficiency of **LLM inference systems**. During my academic research, I worked on computer architecture, near-data processing, and virtual memory with Prof. <a href="https://people.inf.ethz.ch/omutlu/" target="blank">Onur Mutlu</a>'s research group. I also worked closely with Prof. <a href="https://scholar.google.com/citations?user=t8Ncyb4AAAAJ&hl=en" target="blank">Wei Hu</a> on accelerating large-scale quantum chemistry calculations on heterogeneous systems, including GPUs and the Sunway supercomputer, and collaborated with <a href="https://www.linkedin.com/in/wang-jiong-01a78b23" target="blank">Jiong Wang</a> on workload characterization for Huawei's Kunpeng 920 CPU.
 
 ## Education
 
@@ -23,6 +21,10 @@ I also had the chance to collaborate with <a href="https://www.linkedin.com/in/w
 -  B.S. in Computer Science. University of Science and Technology of China. Advisor: <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm" target="blank">Hong An</a>. September 2015 - June 2019.
 
 ## Industry Positions
+
+Infra Lab, Huawei Computing Product Line. Focus: LLM inference optimization.
+
+OpenHarmony Performance Team, Huawei. Focus: operating-system performance optimization.
 
 Software Engineer Intern at Huawei Technologies Co., Ltd, China. October 2018 ~ March 2019. Mentor: Fan Yu (于璠).
 
@@ -77,7 +79,6 @@ University of Science and Technology of China
 - ISPA 2025, TPC Member.
 - Eurosys 2026, Shadow PC.
 
-**Last Modified: 2025.6**
+**Last Modified: 2026.8**
 
 <a href="https://clustrmaps.com/site/1busi" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=500&t=tt&d=OrKXBibw9JKx5ne61yWGU7veIWXWXXi2a9KyHirJiUU" /></a>
-
