@@ -22,9 +22,9 @@ A single theme runs through all of my work: **PERFORMANCE**. My experience spans
 
 ## Industry Positions
 
-Infra Lab, Huawei Computing Product Line. Focus: LLM inference optimization.
+Infra Lab, Huawei Computing Product Line. July 2026 - Present. Focus: LLM inference optimization.
 
-OpenHarmony Performance Team, Huawei. Focus: operating-system performance optimization.
+OpenHarmony Performance Team, Huawei. July 2025 - July 2026. Focus: operating-system performance optimization.
 
 Software Engineer Intern at Huawei Technologies Co., Ltd, China. October 2018 ~ March 2019. Mentor: Fan Yu (于璠).
 
@@ -79,6 +79,6 @@ University of Science and Technology of China
 - ISPA 2025, TPC Member.
 - Eurosys 2026, Shadow PC.
 
-**Last Modified: 2026.8**
+**Last Modified: 2026.10**
 
 <a href="https://clustrmaps.com/site/1busi" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=500&t=tt&d=OrKXBibw9JKx5ne61yWGU7veIWXWXXi2a9KyHirJiUU" /></a>
