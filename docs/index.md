@@ -24,7 +24,7 @@ A single theme runs through all of my work: **PERFORMANCE**. My experience spans
 
 Infra Lab, Huawei Computing Product Line. July 2026 - Present. Focus: LLM inference optimization.
 
-OpenHarmony Performance Team, Huawei. July 2025 - July 2026. Focus: operating-system performance optimization.
+OpenHarmony Performance Team, Huawei CBG. July 2025 - July 2026. Focus: operating-system performance optimization.
 
 Software Engineer Intern at Huawei Technologies Co., Ltd, China. October 2018 ~ March 2019. Mentor: Fan Yu (于璠).
 
